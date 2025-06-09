@@ -1,0 +1,54 @@
+author: Anatole Huet
+contact_url: ''
+context: |-
+    Objective
+    ---------
+    Implement the body of a Python class named ``Employe`` that represents an employee with a name and a salary. The class should include methods to retrieve the employee's details and increase their salary by a given percentage.
+
+    Requirements
+    ------------
+    1. **Constructor**:
+       - The constructor must accept two parameters: ``name`` (a string) and ``salary`` (a number).
+       - These parameters must be stored as private attributes.
+    2. **Getter Methods**:
+       - Implement a method ``get_name()`` that returns the employee's name.
+       - Implement a method ``get_salary()`` that returns the employee's salary.
+    3. **Salary Increase Method**:
+       - Implement a method ``increase_salary(percentage)`` that increases the employee's salary by the given percentage.
+       - The percentage is provided as a number (e.g., ``10`` for a 10% increase).
+
+    Example
+    --------
+      .. code-block:: python
+
+          emp = Employe("John Doe", 50000)
+          print(emp.get_name())  # Output: John Doe
+          print(emp.get_salary())  # Output: 50000
+          emp.increase_salary(10)
+          print(emp.get_salary())  # Output: 55000
+environment_id: test-judge
+environment_parameters:
+    limits:
+        time: '3'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Implement the Employe Class
+network_grading: false
+order: 0
+problems:
+    thecode:
+        type: code
+        name: Your code
+        header: ''
+        language: python
+        default: ''
+variables:
+    new_variable:
+        variable_name: signature
+        variable_type: String
+        variable_description: Le mmessage que l'étudiant doit renvoyer.
+        variable_value: class Employe

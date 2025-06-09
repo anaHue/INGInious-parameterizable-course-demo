@@ -1,0 +1,41 @@
+name: Demo Mémoire
+admins:
+- superadmin
+description: ''
+tutors: []
+groups_student_choice: true
+use_classrooms: true
+accessible: true
+allow_unregister: true
+allow_preview: false
+registration: true
+registration_password: null
+registration_ac: null
+registration_ac_list:
+- ''
+is_lti: false
+lti_keys: {}
+lti_send_back_grade: false
+task_dispenser: toc
+dispenser_data:
+    config:
+        employe: {}
+        method: {}
+        moyenne:
+            accessibility: true
+    imported: false
+    toc:
+    -   config:
+            closed: false
+            hidden_if_empty: false
+        tasks_list:
+        - moyenne
+        title: List of exercises
+lti_url: ''
+tags:
+    Computation:
+        name: Computation
+        description: Looks like computation error !
+        visible: true
+        type: 1
+registration_ac_accept: true

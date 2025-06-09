@@ -1,0 +1,44 @@
+author: INGInious Admins
+contact_url: ''
+context: |-
+    Objective
+    ---------
+    Write the body of a Python function named calculate_average that takes three numerical parameters and returns the mean value.
+
+    Function Signature
+    ------------------
+
+    .. code-block:: python
+
+        def calculate_average(a, b, c):
+            # Your code here
+environment_id: test-judge
+environment_parameters:
+    limits:
+        time: '30'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: Calculate the Mean of Three Numbers
+network_grading: false
+order: 0
+problems:
+    thecode:
+        type: code
+        name: Your code
+        header: ''
+        language: python
+        default: ''
+variables:
+    isInExamMode:
+        variable_name: isInExamMode
+        variable_description: A boolean indicating if the judge is in exam mode
+        variable_value: 'True'
+    signature:
+        variable_name: signature
+        variable_description: 'The signature should be: def nameFunction(param1, param2,
+            ...)'
+        variable_value: def foo()

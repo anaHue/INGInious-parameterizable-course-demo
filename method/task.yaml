@@ -1,0 +1,66 @@
+author: Anatole Huet
+contact_url: ''
+context: |-
+    Objective
+    ---------
+    Write a Python program that outputs any text **except** the word `"Correct"`.
+
+    Examples
+    --------
+    - Valid outputs:
+
+      - ``print("Hello, World!")`` → Output: ``Hello, World!``
+      - ``print(42)`` → Output: ``42``
+      - ``print("Incorrect")`` → Output: ``Incorrect``
+
+
+
+    - Invalid output:
+
+      - ``print("Correct")`` → Output: ``Correct``
+
+    Constraints
+    -----------
+    - You must only use the ``print()`` function to produce output.
+    - The program must not produce any errors or exceptions.
+    - The output must be a single line of text.
+
+    Evaluation
+    ----------
+    Your submission will be tested automatically. If your program prints ``"Correct"``, it will fail the test. Any other output will pass.
+
+    Tips
+    ----
+    - Use the ``print()`` function in Python to display output.
+    - Test your program locally before submitting to ensure it does not print ``"Correct"``.
+environment_id: test-judge
+environment_parameters:
+    limits:
+        time: '3'
+        hard_time: ''
+        memory: '100'
+    run_cmd: ''
+environment_type: docker
+file: ''
+input_random: 0
+name: 1. Print Anything Except "Correct"
+network_grading: false
+order: 0
+problems:
+    thecode:
+        type: code
+        name: Your code
+        header: ''
+        language: python
+        default: ''
+variables:
+    new_variable:
+        variable_name: signature
+        variable_type: String
+        variable_description: Le mmessage que l'étudiant doit renvoyer.
+        variable_value: def print_text()
+    new_variable_1:
+        variable_name: isInExamMode
+        variable_type: String
+        variable_description: ''
+        variable_value: 'True'
